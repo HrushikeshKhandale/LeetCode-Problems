@@ -7,7 +7,8 @@ var mergeAlternately = function(word1, word2) {
     let res=[]
     let w1=word1.split('')
     let w2=word2.split('')
-    for(let i=0;i<w1.concat(w2).length;i++){
+    let megedWords=w1.concat(w2)
+    for(let i=0;i<megedWords.length;i++){
             if(w1[i]!==null){
             res.push(w1[i])
             }
